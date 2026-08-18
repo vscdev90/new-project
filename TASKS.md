@@ -47,10 +47,10 @@ maandag t/m vrijdag.
 _(taken met een open pull request, wachtend op goedkeuring tijdens het
 vrijdagoverleg om 18:00)_
 
-- [x] 1. Scaffolding. Zet een Flutter-project op (pubspec.yaml,
-  `lib/`-structuur, flutter_test als testrunner, lint-config). Basis
-  navigatie-shell en een lege homepage. **→ PR #2**
-  (https://github.com/vscdev90/new-project/pull/2)
-
 ## Klaar
 _(taken met een gemergede pull request)_
+
+- [x] 1. Scaffolding. Zet een Flutter-project op (pubspec.yaml,
+  `lib/`-structuur, flutter_test als testrunner, lint-config). Basis
+  navigatie-shell en een lege homepage. **→ PR #2 (gemerged)**
+  (https://github.com/vscdev90/new-project/pull/2)
