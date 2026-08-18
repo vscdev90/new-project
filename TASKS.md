@@ -25,11 +25,6 @@ een echt toestel/emulator testen doe je zelf lokaal in Android Studio; de
 agents bouwen en testen de logica op CLI-niveau. 5 taken, 1 per dag,
 maandag t/m vrijdag.
 
-- [ ] 1. Scaffolding. Zet een Flutter-project op (pubspec.yaml,
-  `lib/`-structuur, flutter_test als testrunner, lint-config). Basis
-  navigatie-shell (bv. met go_router of Navigator) en een lege homepage.
-  Leg de stackkeuze en de beperking rond emulator-testen kort vast in
-  README.md.
 - [ ] 2. Content-model + dataset. Definieer een datamodel voor een
   "mindset-principe" (titel, korte omschrijving, categorie, uitgebreide
   tekst/tips). Maak een lokale dataset met circa 20-30 principes verdeeld
@@ -51,6 +46,11 @@ maandag t/m vrijdag.
 ## In review
 _(taken met een open pull request, wachtend op goedkeuring tijdens het
 vrijdagoverleg om 18:00)_
+
+- [x] 1. Scaffolding. Zet een Flutter-project op (pubspec.yaml,
+  `lib/`-structuur, flutter_test als testrunner, lint-config). Basis
+  navigatie-shell en een lege homepage. **→ PR #2**
+  (https://github.com/vscdev90/new-project/pull/2)
 
 ## Klaar
 _(taken met een gemergede pull request)_
