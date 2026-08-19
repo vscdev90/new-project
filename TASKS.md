@@ -25,9 +25,6 @@ een echt toestel/emulator testen doe je zelf lokaal in Android Studio; de
 agents bouwen en testen de logica op CLI-niveau. 5 taken, 1 per dag,
 maandag t/m vrijdag.
 
-- [ ] 3. Overzicht- en detailscherm. Bouw een homescreen met de principes
-  gegroepeerd per categorie, en een detailscherm dat een principe volledig
-  toont. Navigatie ertussen werkend, met widget tests voor beide schermen.
 - [ ] 4. Zoeken + favorieten. Voeg een zoekfunctie toe (op titel/categorie)
   en de mogelijkheid om principes te markeren als favoriet, lokaal
   opgeslagen (bv. met shared_preferences). Voeg een "tip van de dag"-widget
@@ -46,6 +43,10 @@ vrijdagoverleg om 18:00)_
   (titel, korte omschrijving, categorie, tips) + lokale dataset met 25
   principes over 5 categorieën. **→ PR #3**
   (https://github.com/vscdev90/new-project/pull/3)
+- [x] 3. Overzicht- en detailscherm. Homescreen met principes gegroepeerd
+  per categorie + detailscherm, navigatie en widget tests.
+  **→ PR #4 (bouwt op PR #3, eerst #3 mergen dan #4)**
+  (https://github.com/vscdev90/new-project/pull/4)
 
 ## Klaar
 _(taken met een gemergede pull request)_
