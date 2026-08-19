@@ -25,11 +25,6 @@ een echt toestel/emulator testen doe je zelf lokaal in Android Studio; de
 agents bouwen en testen de logica op CLI-niveau. 5 taken, 1 per dag,
 maandag t/m vrijdag.
 
-- [ ] 2. Content-model + dataset. Definieer een datamodel voor een
-  "mindset-principe" (titel, korte omschrijving, categorie, uitgebreide
-  tekst/tips). Maak een lokale dataset met circa 20-30 principes verdeeld
-  over meerdere categorieën (bv. discipline, geld, groei-mindset,
-  veerkracht, netwerken). Unit tests voor het laden/parsen van de data.
 - [ ] 3. Overzicht- en detailscherm. Bouw een homescreen met de principes
   gegroepeerd per categorie, en een detailscherm dat een principe volledig
   toont. Navigatie ertussen werkend, met widget tests voor beide schermen.
@@ -46,6 +41,11 @@ maandag t/m vrijdag.
 ## In review
 _(taken met een open pull request, wachtend op goedkeuring tijdens het
 vrijdagoverleg om 18:00)_
+
+- [x] 2. Content-model + dataset. Datamodel voor een "mindset-principe"
+  (titel, korte omschrijving, categorie, tips) + lokale dataset met 25
+  principes over 5 categorieën. **→ PR #3**
+  (https://github.com/vscdev90/new-project/pull/3)
 
 ## Klaar
 _(taken met een gemergede pull request)_

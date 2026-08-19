@@ -1,0 +1,277 @@
+[
+  {
+    "id": "discipline-1",
+    "title": "Sta vroeg op",
+    "category": "discipline",
+    "shortDescription": "Begin de dag met een voorsprong voordat de wereld wakker wordt.",
+    "tips": [
+      "Zet je wekker 30 minuten vroeger dan je gewend bent",
+      "Leg je wekker aan de andere kant van de kamer",
+      "Vermijd de snoozeknop"
+    ]
+  },
+  {
+    "id": "discipline-2",
+    "title": "Volg een vaste ochtendroutine",
+    "category": "discipline",
+    "shortDescription": "Een voorspelbare start voorkomt dat je dag chaotisch begint.",
+    "tips": [
+      "Plan je routine de avond ervoor",
+      "Houd 'm kort genoeg om vol te houden",
+      "Begin met de moeilijkste taak eerst"
+    ]
+  },
+  {
+    "id": "discipline-3",
+    "title": "Stel harde deadlines",
+    "category": "discipline",
+    "shortDescription": "Zonder deadline duurt werk altijd langer dan nodig.",
+    "tips": [
+      "Zet een concrete datum en tijd, niet 'binnenkort'",
+      "Deel grote taken op in kleinere deadlines",
+      "Vertel iemand anders je deadline voor extra druk"
+    ]
+  },
+  {
+    "id": "discipline-4",
+    "title": "Vermijd multitasking",
+    "category": "discipline",
+    "shortDescription": "Eén taak tegelijk afmaken werkt sneller dan alles half doen.",
+    "tips": [
+      "Zet meldingen uit tijdens focuswerk",
+      "Werk in geblokkeerde tijdsblokken (bv. 50 minuten)",
+      "Schrijf afleidende gedachten op om later op te pakken"
+    ]
+  },
+  {
+    "id": "discipline-5",
+    "title": "Houd je aan afspraken met jezelf",
+    "category": "discipline",
+    "shortDescription": "Zelfvertrouwen groeit door beloftes aan jezelf na te komen.",
+    "tips": [
+      "Beloof jezelf alleen wat je ook echt kan waarmaken",
+      "Houd een eenvoudige lijst bij van gehaalde doelen",
+      "Behandel afspraken met jezelf net zo serieus als met anderen"
+    ]
+  },
+  {
+    "id": "geld-1",
+    "title": "Betaal jezelf eerst",
+    "category": "geld",
+    "shortDescription": "Zet spaargeld apart vóórdat je aan uitgaven begint.",
+    "tips": [
+      "Automatiseer een vaste overboeking naar sparen op salarisdag",
+      "Behandel sparen als een vaste 'rekening', niet als restje",
+      "Verhoog het percentage bij elke salarisverhoging"
+    ]
+  },
+  {
+    "id": "geld-2",
+    "title": "Leef onder je stand",
+    "category": "geld",
+    "shortDescription": "De ruimte tussen inkomen en uitgaven is waar vermogen ontstaat.",
+    "tips": [
+      "Laat een hoger inkomen niet automatisch tot hogere uitgaven leiden",
+      "Onderscheid bewust tussen behoeften en wensen",
+      "Vier financiële mijlpalen zonder ze op te maken"
+    ]
+  },
+  {
+    "id": "geld-3",
+    "title": "Investeer in plaats van consumeren",
+    "category": "geld",
+    "shortDescription": "Geld dat werkt, verdient meer geld terug.",
+    "tips": [
+      "Begin klein maar begin vroeg",
+      "Kies voor consistent beleggen boven timing van de markt",
+      "Herinvesteer uitgekeerd rendement"
+    ]
+  },
+  {
+    "id": "geld-4",
+    "title": "Begrijp samengestelde interest",
+    "category": "geld",
+    "shortDescription": "Kleine bedragen groeien exponentieel over lange tijd.",
+    "tips": [
+      "Reken zelf een voorbeeld door over 10, 20 en 30 jaar",
+      "Begin zo vroeg mogelijk, tijd is de grootste factor",
+      "Laat rendement herbeleggen in plaats van opnemen"
+    ]
+  },
+  {
+    "id": "geld-5",
+    "title": "Diversifieer je inkomen",
+    "category": "geld",
+    "shortDescription": "Eén inkomstenbron is een kwetsbaarheid, geen strategie.",
+    "tips": [
+      "Bouw een tweede inkomstenstroom naast je hoofdbaan",
+      "Zoek naar vaardigheden die je breder inzetbaar maken",
+      "Herinvesteer een deel van extra inkomen in nieuwe bronnen"
+    ]
+  },
+  {
+    "id": "groei-mindset-1",
+    "title": "Zie falen als feedback",
+    "category": "groei-mindset",
+    "shortDescription": "Elke mislukking bevat informatie die succes dichterbij brengt.",
+    "tips": [
+      "Schrijf na een fout op wat je eruit leert",
+      "Vraag 'wat nu?' in plaats van 'waarom ik?'",
+      "Vier pogingen, niet alleen resultaten"
+    ]
+  },
+  {
+    "id": "groei-mindset-2",
+    "title": "Zoek actief naar ongemak",
+    "category": "groei-mindset",
+    "shortDescription": "Groei gebeurt net buiten je comfortzone.",
+    "tips": [
+      "Doe wekelijks iets dat je een beetje spannend vindt",
+      "Herken het verschil tussen ongemak en echt gevaar",
+      "Begin klein en bouw het ongemak geleidelijk op"
+    ]
+  },
+  {
+    "id": "groei-mindset-3",
+    "title": "Vraag om kritiek",
+    "category": "groei-mindset",
+    "shortDescription": "Eerlijke feedback is een snelkoppeling naar verbetering.",
+    "tips": [
+      "Vraag specifiek: 'wat kan ik beter doen?'",
+      "Bedank mensen die eerlijke feedback geven",
+      "Reageer niet meteen defensief, luister eerst"
+    ]
+  },
+  {
+    "id": "groei-mindset-4",
+    "title": "Lees dagelijks",
+    "category": "groei-mindset",
+    "shortDescription": "Consistente kennisopbouw stapelt zich op tot een voordeel.",
+    "tips": [
+      "Lees liever 10 minuten per dag dan sporadisch veel",
+      "Wissel af tussen vakliteratuur en andere onderwerpen",
+      "Vat samen wat je leert in eigen woorden"
+    ]
+  },
+  {
+    "id": "groei-mindset-5",
+    "title": "Reflecteer wekelijks op je vooruitgang",
+    "category": "groei-mindset",
+    "shortDescription": "Zonder reflectie herhaal je dezelfde fouten onbewust.",
+    "tips": [
+      "Plan een vast wekelijks moment voor reflectie",
+      "Noteer wat wel en niet werkte",
+      "Stel op basis daarvan één concrete verbetering voor de week erna"
+    ]
+  },
+  {
+    "id": "veerkracht-1",
+    "title": "Herstel snel na tegenslag",
+    "category": "veerkracht",
+    "shortDescription": "Niet het vermijden van tegenslag, maar het snelle herstel telt.",
+    "tips": [
+      "Geef jezelf bewust een korte periode om te balen, dan verder",
+      "Zoek naar de eerste kleine volgende stap",
+      "Vermijd het herkauwen van wat je niet kan veranderen"
+    ]
+  },
+  {
+    "id": "veerkracht-2",
+    "title": "Focus op wat je kan beïnvloeden",
+    "category": "veerkracht",
+    "shortDescription": "Energie naar oncontroleerbare zaken is energie die je mist voor actie.",
+    "tips": [
+      "Maak onderscheid tussen wat je controleert en wat niet",
+      "Investeer je tijd alleen in het eerste",
+      "Laat de rest bewust los"
+    ]
+  },
+  {
+    "id": "veerkracht-3",
+    "title": "Bouw een supportnetwerk",
+    "category": "veerkracht",
+    "shortDescription": "Niemand haalt succes volledig alleen.",
+    "tips": [
+      "Onderhoud een klein aantal echt hechte relaties",
+      "Wees zelf ook beschikbaar als steun voor anderen",
+      "Wacht niet tot een crisis om contact te zoeken"
+    ]
+  },
+  {
+    "id": "veerkracht-4",
+    "title": "Accepteer onzekerheid",
+    "category": "veerkracht",
+    "shortDescription": "Wachten op volledige zekerheid betekent nooit beginnen.",
+    "tips": [
+      "Neem beslissingen met 70% van de informatie die je zou willen",
+      "Bouw kleine, omkeerbare experimenten in plaats van grote gokken",
+      "Accepteer dat een verkeerde keuze ook leert"
+    ]
+  },
+  {
+    "id": "veerkracht-5",
+    "title": "Blijf lange termijn denken",
+    "category": "veerkracht",
+    "shortDescription": "Tegenslagen wegen minder zwaar tegen een langetermijnperspectief.",
+    "tips": [
+      "Vraag jezelf af of dit probleem over 5 jaar nog uitmaakt",
+      "Zet doelen voor jaren, niet alleen voor weken",
+      "Meet vooruitgang over maanden, niet over dagen"
+    ]
+  },
+  {
+    "id": "netwerken-1",
+    "title": "Geef voordat je vraagt",
+    "category": "netwerken",
+    "shortDescription": "Waardevolle relaties beginnen met bijdragen, niet met vragen.",
+    "tips": [
+      "Deel kennis, contacten of hulp zonder er iets voor terug te verwachten",
+      "Onthoud wat anderen bezighoudt en speel daarop in",
+      "Wees de eerste die aanbiedt te helpen"
+    ]
+  },
+  {
+    "id": "netwerken-2",
+    "title": "Onderhoud zwakke banden",
+    "category": "netwerken",
+    "shortDescription": "Nieuwe kansen komen vaker van verre kennissen dan van hechte vrienden.",
+    "tips": [
+      "Stuur af en toe een kort bericht zonder aanleiding",
+      "Houd contactgegevens en context van mensen bij",
+      "Reageer op belangrijke updates van je netwerk"
+    ]
+  },
+  {
+    "id": "netwerken-3",
+    "title": "Zoek mentoren op",
+    "category": "netwerken",
+    "shortDescription": "Leren van iemands ervaring is sneller dan alles zelf ontdekken.",
+    "tips": [
+      "Vraag concreet en klein om te beginnen (één gesprek, niet 'wil je mijn mentor zijn')",
+      "Kom voorbereid met specifieke vragen",
+      "Laat zien wat je met eerder advies hebt gedaan"
+    ]
+  },
+  {
+    "id": "netwerken-4",
+    "title": "Wees oprecht geïnteresseerd in anderen",
+    "category": "netwerken",
+    "shortDescription": "Mensen voelen het verschil tussen oprechte interesse en netwerken uit eigenbelang.",
+    "tips": [
+      "Stel meer vragen dan je zelf vertelt",
+      "Onthoud details en kom er later op terug",
+      "Netwerk ook als je (nog) niets nodig hebt"
+    ]
+  },
+  {
+    "id": "netwerken-5",
+    "title": "Volg op na een eerste ontmoeting",
+    "category": "netwerken",
+    "shortDescription": "Een connectie sterft zonder opvolging.",
+    "tips": [
+      "Stuur binnen 48 uur een kort bedankbericht",
+      "Noem iets specifieks uit het gesprek",
+      "Stel een concreet vervolgmoment voor als dat past"
+    ]
+  }
+]
