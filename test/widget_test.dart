@@ -1,9 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:millionaire_mindset/main.dart';
 
 void main() {
+  setUp(() {
+    // HomeScreen laadt favorieten via het echte SharedPreferences-kanaal;
+    // zonder mock gooit dat een MissingPluginException in de testomgeving.
+    SharedPreferences.setMockInitialValues({});
+  });
+
   testWidgets('app toont de titel en laadt de principes-asset', (
     WidgetTester tester,
   ) async {
