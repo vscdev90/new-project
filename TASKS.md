@@ -25,10 +25,6 @@ een echt toestel/emulator testen doe je zelf lokaal in Android Studio; de
 agents bouwen en testen de logica op CLI-niveau. 5 taken, 1 per dag,
 maandag t/m vrijdag.
 
-- [ ] 4. Zoeken + favorieten. Voeg een zoekfunctie toe (op titel/categorie)
-  en de mogelijkheid om principes te markeren als favoriet, lokaal
-  opgeslagen (bv. met shared_preferences). Voeg een "tip van de dag"-widget
-  toe op het homescreen die een willekeurig/dagelijks principe uitlicht.
 - [ ] 5. Afwerking. Stel een duidelijk visueel thema in (kleuren, typografie,
   licht/donker-modus), zorg voor nette responsive/toegankelijke styling
   (leesbare tekstgroottes), en schrijf in README.md een korte gebruiks- en
@@ -47,6 +43,10 @@ vrijdagoverleg om 18:00)_
   per categorie + detailscherm, navigatie en widget tests.
   **→ PR #4 (bouwt op PR #3, eerst #3 mergen dan #4)**
   (https://github.com/vscdev90/new-project/pull/4)
+- [x] 4. Zoeken + favorieten. Zoekfunctie (titel/categorie), favorieten via
+  shared_preferences, "tip van de dag"-widget.
+  **→ PR #5 (bouwt op PR #4, mergevolgorde #2→#3→#4→#5)**
+  (https://github.com/vscdev90/new-project/pull/5)
 
 ## Klaar
 _(taken met een gemergede pull request)_
