@@ -5,7 +5,11 @@ import 'package:flutter/material.dart';
 /// uitrekt. Op smalle schermen (telefoon) gebruikt [child] gewoon de volle
 /// beschikbare breedte.
 class ResponsiveContent extends StatelessWidget {
-  const ResponsiveContent({super.key, required this.child, this.maxWidth = 640});
+  const ResponsiveContent({
+    super.key,
+    required this.child,
+    this.maxWidth = 640,
+  });
 
   final Widget child;
   final double maxWidth;
