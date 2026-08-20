@@ -22,14 +22,10 @@ Geen backend, geen accounts — puur lokale content. Stack: Flutter, omdat
 `flutter test` unit-/widget-tests kan draaien zonder Android SDK/emulator
 (die in de automatische pipeline niet beschikbaar zijn). Een APK bouwen en op
 een echt toestel/emulator testen doe je zelf lokaal in Android Studio; de
-agents bouwen en testen de logica op CLI-niveau. 5 taken, 1 per dag,
-maandag t/m vrijdag.
+agents bouwen en testen de logica op CLI-niveau.
 
-- [ ] 5. Afwerking. Stel een duidelijk visueel thema in (kleuren, typografie,
-  licht/donker-modus), zorg voor nette responsive/toegankelijke styling
-  (leesbare tekstgroottes), en schrijf in README.md een korte gebruiks- en
-  buildhandleiding (inclusief hoe de app lokaal op een emulator/toestel te
-  draaien).
+Alle 5 geplande taken zijn nu gebouwd (zie hieronder). Nieuwe taken kunnen
+hier worden toegevoegd.
 
 ## In review
 _(taken met een open pull request, wachtend op goedkeuring tijdens het
@@ -47,6 +43,10 @@ vrijdagoverleg om 18:00)_
   shared_preferences, "tip van de dag"-widget.
   **→ PR #5 (bouwt op PR #4, mergevolgorde #2→#3→#4→#5)**
   (https://github.com/vscdev90/new-project/pull/5)
+- [x] 5. Afwerking. Licht/donker thema, responsive max-width layout,
+  uitgebreide README (functionaliteit + run/test/build-instructies).
+  **→ PR #6 (bouwt op PR #5, mergevolgorde #2→#3→#4→#5→#6)**
+  (https://github.com/vscdev90/new-project/pull/6)
 
 ## Klaar
 _(taken met een gemergede pull request)_
