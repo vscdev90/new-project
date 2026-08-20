@@ -2,17 +2,56 @@ import 'package:flutter/material.dart';
 
 import '../models/mindset_principle.dart';
 
-class PrincipleDetailScreen extends StatelessWidget {
-  const PrincipleDetailScreen({super.key, required this.principle});
+class PrincipleDetailScreen extends StatefulWidget {
+  const PrincipleDetailScreen({
+    super.key,
+    required this.principle,
+    this.isFavorite = false,
+    this.onFavoriteToggled = _defaultOnFavoriteToggled,
+  });
 
   final MindsetPrinciple principle;
+  final bool isFavorite;
+  final VoidCallback onFavoriteToggled;
+
+  static void _defaultOnFavoriteToggled() {}
+
+  @override
+  State<PrincipleDetailScreen> createState() => _PrincipleDetailScreenState();
+}
+
+class _PrincipleDetailScreenState extends State<PrincipleDetailScreen> {
+  late bool _isFavorite;
+
+  @override
+  void initState() {
+    super.initState();
+    _isFavorite = widget.isFavorite;
+  }
+
+  void _toggleFavorite() {
+    setState(() => _isFavorite = !_isFavorite);
+    widget.onFavoriteToggled();
+  }
 
   @override
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
+    final principle = widget.principle;
 
     return Scaffold(
-      appBar: AppBar(title: Text(principle.title)),
+      appBar: AppBar(
+        title: Text(principle.title),
+        actions: [
+          IconButton(
+            icon: Icon(_isFavorite ? Icons.favorite : Icons.favorite_border),
+            tooltip: _isFavorite
+                ? 'Verwijderen uit favorieten'
+                : 'Toevoegen aan favorieten',
+            onPressed: _toggleFavorite,
+          ),
+        ],
+      ),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [

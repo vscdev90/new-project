@@ -25,4 +25,28 @@ void main() {
     expect(find.text('Zet je wekker vroeger'), findsOneWidget);
     expect(find.text('Vermijd de snoozeknop'), findsOneWidget);
   });
+
+  testWidgets(
+    'tikken op het favoriet-icoon wisselt de weergave en roept de callback aan',
+    (tester) async {
+      var toggledCount = 0;
+
+      await tester.pumpWidget(
+        MaterialApp(
+          home: PrincipleDetailScreen(
+            principle: principle,
+            onFavoriteToggled: () => toggledCount++,
+          ),
+        ),
+      );
+
+      expect(find.byIcon(Icons.favorite_border), findsOneWidget);
+
+      await tester.tap(find.byIcon(Icons.favorite_border));
+      await tester.pump();
+
+      expect(find.byIcon(Icons.favorite), findsOneWidget);
+      expect(toggledCount, 1);
+    },
+  );
 }
