@@ -4,6 +4,7 @@ import '../data/favorites_store.dart';
 import '../data/mindset_principles_repository.dart';
 import '../logic/principle_selection.dart';
 import '../models/mindset_principle.dart';
+import '../widgets/responsive_content.dart';
 import 'principle_detail_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -99,75 +100,85 @@ class _HomeScreenState extends State<HomeScreen> {
           final grouped = _groupByCategory(visiblePrinciples);
           final categories = grouped.keys.toList()..sort();
 
-          return Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.all(16),
-                child: TextField(
-                  decoration: const InputDecoration(
-                    hintText: 'Zoek op titel of categorie',
-                    prefixIcon: Icon(Icons.search),
-                    border: OutlineInputBorder(),
-                  ),
-                  onChanged: (value) => setState(() => _searchQuery = value),
-                ),
-              ),
-              if (tip != null && _searchQuery.trim().isEmpty)
+          return ResponsiveContent(
+            child: Column(
+              children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
-                  child: Card(
-                    child: ListTile(
-                      leading: const Icon(Icons.wb_sunny_outlined),
-                      title: const Text('Tip van de dag'),
-                      subtitle: Text(tip.title),
-                      onTap: () => _openDetail(tip),
+                  padding: const EdgeInsets.all(16),
+                  child: TextField(
+                    decoration: const InputDecoration(
+                      hintText: 'Zoek op titel of categorie',
+                      prefixIcon: Icon(Icons.search),
+                      border: OutlineInputBorder(),
+                    ),
+                    onChanged: (value) =>
+                        setState(() => _searchQuery = value),
+                  ),
+                ),
+                if (tip != null && _searchQuery.trim().isEmpty)
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+                    child: Card(
+                      child: ListTile(
+                        leading: const Icon(Icons.wb_sunny_outlined),
+                        title: const Text('Tip van de dag'),
+                        subtitle: Text(tip.title),
+                        onTap: () => _openDetail(tip),
+                      ),
                     ),
                   ),
-                ),
-              Expanded(
-                child: categories.isEmpty
-                    ? const Center(child: Text('Geen principes gevonden.'))
-                    : ListView(
-                        children: [
-                          for (final category in categories) ...[
-                            Padding(
-                              padding: const EdgeInsets.fromLTRB(
-                                16,
-                                8,
-                                16,
-                                4,
-                              ),
-                              child: Text(
-                                category,
-                                style: Theme.of(context)
-                                    .textTheme
-                                    .titleMedium
-                                    ?.copyWith(fontWeight: FontWeight.bold),
-                              ),
-                            ),
-                            for (final principle in grouped[category]!)
-                              ListTile(
-                                title: Text(principle.title),
-                                subtitle: Text(principle.shortDescription),
-                                trailing: IconButton(
-                                  icon: Icon(
-                                    _favoriteIds.contains(principle.id)
-                                        ? Icons.favorite
-                                        : Icons.favorite_border,
-                                  ),
-                                  tooltip: _favoriteIds.contains(principle.id)
-                                      ? 'Verwijderen uit favorieten'
-                                      : 'Toevoegen aan favorieten',
-                                  onPressed: () =>
-                                      _toggleFavorite(principle.id),
+                Expanded(
+                  child: categories.isEmpty
+                      ? const Center(
+                          child: Text('Geen principes gevonden.'),
+                        )
+                      : ListView(
+                          children: [
+                            for (final category in categories) ...[
+                              Padding(
+                                padding: const EdgeInsets.fromLTRB(
+                                  16,
+                                  8,
+                                  16,
+                                  4,
                                 ),
-                                onTap: () => _openDetail(principle),
+                                child: Text(
+                                  category,
+                                  style: Theme.of(context)
+                                      .textTheme
+                                      .titleMedium
+                                      ?.copyWith(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                ),
                               ),
+                              for (final principle in grouped[category]!)
+                                ListTile(
+                                  title: Text(principle.title),
+                                  subtitle: Text(
+                                    principle.shortDescription,
+                                  ),
+                                  trailing: IconButton(
+                                    icon: Icon(
+                                      _favoriteIds.contains(principle.id)
+                                          ? Icons.favorite
+                                          : Icons.favorite_border,
+                                    ),
+                                    tooltip:
+                                        _favoriteIds.contains(principle.id)
+                                            ? 'Verwijderen uit favorieten'
+                                            : 'Toevoegen aan favorieten',
+                                    onPressed: () =>
+                                        _toggleFavorite(principle.id),
+                                  ),
+                                  onTap: () => _openDetail(principle),
+                                ),
+                            ],
                           ],
-                        ],
-                      ),
-              ),
-            ],
+                        ),
+                ),
+              ],
+            ),
           );
         },
       ),
